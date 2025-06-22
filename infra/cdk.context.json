@@ -1,0 +1,56 @@
+{
+  "vpc-provider:account=586794451906:filter.isDefault=true:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0189fed7061918ac7",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "586794451906",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0d0b07978c9480e27",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-08101cd453eb4e70a"
+          },
+          {
+            "subnetId": "subnet-0ab472ed043f027ab",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-08101cd453eb4e70a"
+          },
+          {
+            "subnetId": "subnet-01da67dd468b8b43b",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-08101cd453eb4e70a"
+          },
+          {
+            "subnetId": "subnet-0d87f322b744655e7",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-08101cd453eb4e70a"
+          },
+          {
+            "subnetId": "subnet-045b4e1aa394e5454",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-east-1e",
+            "routeTableId": "rtb-08101cd453eb4e70a"
+          },
+          {
+            "subnetId": "subnet-06bd661c0e760c951",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "us-east-1f",
+            "routeTableId": "rtb-08101cd453eb4e70a"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=586794451906:domainName=deablr.com:region=us-east-1": {
+    "Id": "/hostedzone/Z0676457XB5ZKDISMZLI",
+    "Name": "deablr.com."
+  }
+}
