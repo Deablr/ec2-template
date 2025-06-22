@@ -10,6 +10,7 @@ This is a blank project for CDK development with TypeScript.
 - Have configured an aws profile (`aws configure`)
 
 # Structure
+```
 my-project/
 ├── app/              # Your Docker application code
 │   └── Dockerfile
@@ -18,6 +19,7 @@ my-project/
     │   └── infra.ts  # Entrypoint: Define your apps here
     └── lib/
         └── infra-stack.ts # The reusable stack definition
+```
 
 ## Initial Setup
 For first time running within an aws account, run the bootstrap command:
